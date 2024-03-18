@@ -17,6 +17,7 @@ pipeline {
         stage('pull artifact') {
             steps {
                 getArtifacts("mirror-openshift-release", "latest-${OCP_RELEASE}-build.txt" )
+	        echo "test other commits"
             }
         }
     }
