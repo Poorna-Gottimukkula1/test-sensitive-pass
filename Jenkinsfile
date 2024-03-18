@@ -11,7 +11,6 @@ pipeline {
         POWERVS_REGION = "lon"
         POWERVS_ZONE = "lon06"
         VPCREGION= "eu-gb"
-	JENKINS_TOKEN="***REMOVED***"
 	 }
 	stages {
         stage('pull artifact') {
